@@ -2,8 +2,8 @@
 #include <HTTPUpdate.h>
  
 /**********根据实际修改**********/
-const char *wifi_ssid = "Mi10Pro";        // WIFI名称，区分大小写，不要写错
-const char *wifi_password = "88888888"; // WIFI密码
+const char *wifi_ssid = "XXXX";        // WIFI名称，区分大小写，不要写错
+const char *wifi_password = "XXXX"; // WIFI密码
 //远程固件链接，只支持http
 // 这里使用minIO的web服务，也可以使用nginx等
 const char *ota_url = "http://192.168.132.140:9000/esp32/firmware.bin";
